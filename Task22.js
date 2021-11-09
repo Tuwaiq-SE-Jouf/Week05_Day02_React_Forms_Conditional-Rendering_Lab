@@ -87,11 +87,11 @@ class App extends Component {
                         name="destination" 
                         onChange={this.handleChange}
                     >
-                        <option value="">-- Please Choose a destination --</option>
-                        <option value="germany">Germany</option>
-                        <option value="norway">Norway</option>
-                        <option value="north pole">North Pole</option>
-                        <option value="south pole">South Pole</option>
+                         <option value="">-- Please Choose a destination --</option>
+                    <option value="germany">North Korea</option>
+                    <option value="norway">south korean</option>
+                    <option value="north pole">Japan</option>
+                    <option value="south pole">China</option>
                     </select>
                     
                     <br />
