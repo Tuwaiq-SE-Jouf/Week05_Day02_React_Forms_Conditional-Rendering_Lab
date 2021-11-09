@@ -1,0 +1,36 @@
+.form{
+  position: relative;
+  height: 48px !important;
+  /* width: 50px;
+  margin-right: 8px; */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 11px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 1s ease-in-out;
+  transform: scale(1.04);
+  z-index: 2;
+  padding: 10px;
+  background-color: #d6d4d44f;
+  border-radius: 4px;
+  position: relative;
+  /* margin-top: 7px;
+  opacity: 0;
+  transition: all 0.8s; */
+  
+
+  background-color: #d6d4d44f;
+  border-radius: 4px;
+  position: relative;
+  margin-top: 7px;
+  transition: all 0.8s;
+  pointer-events: all;
+  background-color: rgb(115, 228, 203);
+  margin: 30px;
+  border: 1px solid #eee;
+  cursor: pointer
+  
+}
