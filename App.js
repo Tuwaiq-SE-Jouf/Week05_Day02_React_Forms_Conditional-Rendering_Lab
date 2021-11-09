@@ -1,29 +1,11 @@
-import React from "react";
-class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      
-      isLogin:"Log In",
-      log:"Log Out"
-    };
-  }
+import React, { Component } from "react";
+import FormContainer from "./FormContainer";
 
-  handelClick=()=>{
-    if (this.state.isLogin="Log In"){
-      this.setState({
-        isLogin: "Log Out",
-      });
-    this.setState({
-      log: "Log In",
-    });}
 
-  }
-  render() {
-  return <div>
-   <h1 id="h">{this.state.log}</h1>
-<p><button onClick={this.handelClick}>{this.state.isLogin}</button></p>
+function App () {
 
-  </div>;
-}}
-export default App;
+
+return  <FormContainer/>
+}
+
+export default App
